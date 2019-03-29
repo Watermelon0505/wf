@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+#head {
+	background-color: orangered;
+}
+
+#head img {
+	margin-left: 300px;
+	position: relative;
+}
+
+#input-1 {
+	position: absolute;
+	right: 500px;
+	top: 23px;
+	height: 25px;
+	width: 300px;
+}
+
+#input-2 {
+	position: absolute;
+	right: 400px;
+	top: 23px;
+	height: 30px;
+	width: 100px;
+}
+
+#xinxi {
+	margin-left: 450px;
+	margin-top: 40px;
+}
+
+#xinxi li {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+#ziliao {
+	margin-left: 600px;
+	margin-top: -400px;
+	width: 830px;
+	height: 470px;
+	border: solid;
+	border-color: silver
+}
+
+#ziliao-head {
+	border-bottom: solid;
+	border-color: silver;
+	width: 830px;
+	height: 30px;
+}
+
+#ziliao-head li {
+	margin-left: 30px;
+	margin-top: 10px;
+	height: 29px;
+	width: 100px;
+}
+
+#ziliao td {
+	padding-top: 20px;
+}
+
+#ziliao table {
+	margin-left: 30px;
+}
+
+#tail {
+	clear: left;
+	margin-left: 400px;
+	height: 80px;
+	width: 1250px;
+	border-bottom: solid;
+	border-top: solid;
+	border-color: silver;
+	margin-top: 70px;
+}
+
+#tail li {
+	float: left;
+	padding-left: 15px;
+	font-size: 5px;
+	margin-top: 15px;
+}
+
+#tail ul {
+	margin-left: -15px;
+}
+
+footer {
+	margin-left: 400px;
+	width: 1230px;
+	font-size: 10px;
+}
+
+footer p {
+	margin-top: 10px;
+}

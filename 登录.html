@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<link href="css/登录.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="head">
+			<img src="img/20180621112056.png"/>
+		</div>
+		<div id="head-1">
+			<li>为确保您账户的安全及正常使用，依《网络安全法》相关要求，6月1日起会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</li>
+		</div>
+		<div id="tupian-1">
+			<img src="img/YYBT}U5455{K(LPV)L8TD43.png" />http://127.0.0.1:8020/%e6%b7%98%e5%ae%9d%e9%a1%b9%e7%9b%ae/img/YYBT%7DU5455%7BK(LPV)L8TD43.png
+		</div>
+		
+		<div id="tupian-2">
+		    <img src="img/20180526001.png" />
+		</div>
+		<div id="denglu">
+			<table cellspacing="0" cellpadding="0">
+				<tr><td colspan="2">密码登录</td></tr>
+				<tr><td align="right"><img src="img/touxiang.png"></td><td align="left">
+				<input type="text" placeholder="会员名/邮箱/手机号" style="width: 230px;height: 35px;" id="yanzheng-1"></td></tr>
+			    <tr><td align="right"><img src="img/20180625155154.png"></td><td align="left">
+			    <input type="password" style="width: 230px;height: 35px;" id="yanzheng-2"></td></tr>
+		        <tr><td colspan="2" ><a href="#" id="yanzheng-3"><input type="submit" value="登录" style="width: 280px;height: 35px;background-color: #f40;" ></a></td></tr>
+			</table>
+			<span><a href="index.html">淘宝首页</a></span>
+			<span><a href="注册.html" >免费注册</a></span>
+			
+		</div>
+		<script type="text/javascript">
+			var name1=document.getElementById("yanzheng-1");
+			var password1=document.getElementById("yanzheng-2");
+			var yanzheng=document.getElementById('yanzheng-3');
+		     
+			yanzheng.onclick=function(){
+//			 console.log(password1.value);
+//			 console.log(name1.value);
+			if((name1.value==15538674479||name1.value=="胡华超" )&& password1.value==123456){
+				alert("登陆成功！");
+				yanzheng.href="个人资料.html";
+			}else{
+				alert("输入错误，请从新输入！");
+				name1.value="";
+				password1.value="";
+			 }
+			}
+			
+		</script>
+		<div id="tupian-3">
+			<img src="img/20180625150422.png" />
+		</div>
+		<div id="tupian-4">
+			<img src="img/20180625150658.png"/>
+		</div>
+		<div id="denglu-1">
+			<ul>
+				<li>阿里巴巴集团</li>
+				<li>阿里巴巴国际站</li>
+				<li>阿里巴巴中国站</li>
+				<li>全球速卖通</li>
+				<li>淘宝网</li>
+				<li>天猫</li>
+				<li>聚划算</li>
+				<li>一淘</li>
+				<li>阿里妈妈</li>
+				<li>阿里云计算</li>
+				<li>云OS</li>
+				<li>万网</li>
+				<li>支付宝</li>
+			</ul>
+		</div>
+		<footer><p>关于淘宝合作伙伴营销中心廉正举报联系客服开放平台诚征英才联系我们网站地图法律声明及隐私权政策© 2018 Taobao.com 版权所有</p>
+                <p>网络文化经营许可证：浙网文[2016]0132-032号|增值电信业务经营许可证：浙B2-20080224-1|信息网络传播视听节目许可证：1109364号</p>
+		</footer>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,243 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+#head {
+	height: 40px;
+}
+
+#head-1 {
+	margin-left: 460px;
+	padding-top: 5px;
+	position: relative;
+}
+
+#head-1 li {
+	float: left;
+	overflow: hidden;
+	padding: 8px;
+	font-size: 9px;
+}
+
+#head-4 li {
+	float: left;
+	overflow: hidden;
+}
+
+
+/*#head-6 ul{
+				margin-left: -200px;
+				
+			}
+			#head-6 li{
+				
+				float: left;
+				overflow: hidden;
+				margin-top: 50px;
+				padding-right: 100px;
+			}*/
+
+#img1 {
+	margin-left: 350px;
+	float: left;
+	overflow: hidden;
+}
+
+#img2 {
+	float: right;
+	margin-right: 380px;
+	margin-top: -40px;
+}
+
+#head-3 input {
+	border: solid;
+	border-color: red;
+	color: white;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+#head-4 li {
+	padding-left: 15px;
+	text-decoration: none;
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+#head-3 {
+	height: 150px;
+}
+
+#head-5 {
+	border-top: solid;
+	border-color: tomato;
+}
+
+.head-7 {
+	width: 252px;
+	height: 68px;
+	margin-left: 350px;
+}
+
+.head-9 li {
+	float: left;
+	width: 50px;
+	padding-top: 15px;
+}
+
+.head-8 li {
+	float: left;
+	overflow: hidden;
+	padding-left: 4px;
+	margin-left: 9px;
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+#head-7 {
+	clear: left;
+}
+
+#head-7 img {
+	float: right;
+	margin-right: 770px;
+	margin-top: -542px;
+}
+
+#head-8 {
+	float: right;
+	margin-right: 590px;
+	margin-top: -542px;
+}
+
+#head-9 {
+	float: right;
+	overflow: hidden;
+	margin-right: 590px;
+	margin-top: -402px;
+}
+
+#head-10 {
+	float: right;
+	overflow: hidden;
+	margin-right: 360px;
+	margin-top: -552px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+#head-10 td {
+	width: 100px;
+	height: 58px;
+	text-align: center;
+	border-bottom: solid;
+	border-left: solid;
+	/*opacity: 0.2;*/
+	border-color: silver;
+}
+
+#head-10 .head-1 {
+	/*opacity: 0.2;*/
+	border-right: solid;
+	border-color: silver;
+}
+
+#head-11 {
+	float: right;
+	overflow: hidden;
+	width: 520px;
+	height: 30px;
+	margin-right: 770px;
+	margin-top: -252px;
+	background-color: gainsboro;
+}
+
+#head-11 p {
+	margin-left: 410px;
+	font-size: 10px;
+	margin-top: -12px;
+}
+
+#head-12 {
+	float: right;
+	overflow: hidden;
+	margin-right: 1080px;
+	margin-top: -220px;
+}
+
+#head-13 {
+	float: right;
+	overflow: hidden;
+	margin-right: 870px;
+	margin-top: -220px;
+}
+
+#head-13 p {
+	padding-top: 10px;
+	margin-bottom: 16px;
+	font-size: 10px;
+}
+
+#head-14 {
+	float: right;
+	overflow: hidden;
+	margin-right: 590px;
+	margin-top: -250px;
+}
+
+#head-15 {
+	float: right;
+	overflow: hidden;
+	margin-right: 360px;
+	margin-top: -255px;
+}
+
+#as {
+	width: 1800px;
+	font-size: 10px;
+	position: absolute;
+	left: 900px;
+}
+
+#as ul {
+	padding-top: 3px;
+}
+
+#as ul li {
+	list-style-type: none;
+	float: left;
+	height: 25px;
+	width: 80px;
+	line-height: 25px;
+	text-align: center;
+	background: white;
+}
+
+#as ul li ul {
+	display: list-item;
+	position: relative;
+	display: none;
+}
+
+#as ul li:hover {
+	background: #F5F5F5 color: #000;
+	cursor: pointer;
+}
+
+#as ul li:hover ul {
+	display: list-item;
+}
+#ggao {
+	position: absolute;
+	right: 120px;
+	top: 450px;
+	display: none;
+}

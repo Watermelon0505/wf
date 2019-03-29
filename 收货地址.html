@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>收货地址</title>
+		<link href="css/收货地址.css" rel="stylesheet" type="text/css" />
+			
+	</head>
+	<body>
+		<div id="head">
+			<a href="index.html"><img src="img/20180626222228.png" /></a>
+			<input type="text" name="" id="input-1" value=""  /><input id="input-2" type="submit" value="搜索"  />
+		</div>
+		<div id="xinxi">
+			<img src="img/Touxiang.jpg" />
+			<ul>
+				<li><a href="#">账号管理</a></li>
+				<li><a href="#">安全设置</a></li>
+				<li><a href="个人资料.html">个人资料</a></li>
+				<li><a href="#">隐私设置</a></li>
+				<li><a href="#">个人成长信息</a></li>
+				<li><a href="#">支付宝绑定设置</a></li>
+				<li><a href="#">微博绑定设置</a></li>
+				<li><a href="#">个人交易信息</a></li>
+				<li><a href="收货地址.html">收货地址</a></li>
+				<li><a href="#">网站提醒</a></li>
+				<li><a href="#">旺旺网页版设置</a></li>
+				<li><a href="#">分享绑定</a></li>
+			</ul>
+		</div>
+		<div id="ziliao">
+			<div id="ziliao-head">
+			<span>收货地址</span>
+			</div>
+			<table id="t">
+				<tr><td colspan="2">新增收货地址</td></tr>
+			    <tr><td align="right">所在地区*</td><td align="left"><form><select><option>中国大陆</option><option>中国台湾地区</option><option>中国香港</option><option>马来西亚</option><option>新加坡</option></select><select  id="t1"><option>请选择所在省</option><option>河南省</option><option>安徽省</option><option>四川省</option><option>山西省</option><option>山东省</option></select></form></td></tr>
+				<tr><td align="right">详细地址*</td><td align="left"><textarea name="text" cols="50" rows="4" id="t2"></textarea></td></tr>
+				<tr><td align="right">邮政编码：</td><td align="left"><input id="bianma" type="text" placeholder="如你不清楚邮递区号，请填写000000" style="width: 250px;height: 30px;"></td></tr>
+				<tr><td align="right">收货人姓名*</td><td align="left"><input type="text" maxlength="25" placeholder="长度不超过25个字符" style="height: 30px;" id="t4" ></td></tr>
+				<tr><td align="right">手机号码</td><td align="left"><form><select style="height: 30px;"><option>中国大陆 +86</option><option>中国台湾地区 +886</option><option>中国香港    +852</option><option>马来西亚    +60</option><option>新加坡   +65</option></select><input type="text"maxlength="11" placeholder="请输入你的手机号码" style="height: 27px;" id="t5"></form></td></tr>
+			</table>
+			<input id="t6" type="button" value="保存" style="width: 80px;height: 25px;background-color: red;color: white;margin-left: 130px;margin-top: 20px;"/>
+		</div>
+		<script>
+			var diqu=document.getElementById("t1");
+			var ss=document.getElementById("t4");
+			var dizhi=document.getElementById("t2");
+			var baocun=document.getElementById("t6");
+			var bianma=document.getElementById("bianma");
+			var dianhua=document.getElementById("t5");
+			baocun.onclick=function(){
+				
+//				console.log(ss.value);
+//				console.log(dizhi.value);
+//				console.log(bianma.value);
+//				console.log(dianhua.value);
+//				console.log(diqu.value);
+            
+    var id=document.getElementById("shouhuo-2");
+	var lis=id.getElementsByTagName("li");
+	lis[0].firstChild.nodeValue=ss.value;
+	lis[1].firstChild.nodeValue=diqu.value;
+	lis[2].firstChild.nodeValue=dizhi.value;
+	lis[3].firstChild.nodeValue=bianma.value;
+	lis[4].firstChild.nodeValue=dianhua.value;
+	lis[5].firstChild.nodeValue="删除"
+	console.log(lis[0].firstChild.nodeValue);
+//					alert("保存成功");
+            ss.value="";
+            dizhi.value="";
+            bianma.value="";
+            dianhua.value="";
+            diqu.value="请选择所在省"
+				}
+	
+		</script>
+		<div id="shouhuo-0">
+		<div id="shouhuo">
+			<div>
+			<ul>
+				<li style="width: 100px;">收货人</li>
+				<li style="width: 100px;">所在地区</li>
+				<li style="width: 300px;">详细地址</li>
+				<li style="width: 80px;">邮编</li>
+				<li style="width: 110px;">电话</li>
+				<li style="width: 100px;">操作</li>
+			</ul>
+			</div>
+		</div>
+			<div style="clear: left;" id="shouhuo-1">
+			<ul>
+				<li style="width: 100px;">胡华超</li>
+			    <li style="width: 100px;">河南省</li>
+			    <li style="width: 300px;">郑州南大学城河南机电职业学院</li>
+			    <li style="width: 80px;">451150</li>
+			    <li style="width: 110px;">15538674479</li>
+			    <li style="width: 100px;">删除</li>
+			</ul>
+		</div>
+		<div  id="shouhuo-2">
+			<ul>
+				<li class="l-1" style="width: 100px;">&nbsp;</li>
+			    <li class="l-2" style="width: 100px;">&nbsp;</li>
+			    <li class="l-3" style="width: 300px;">&nbsp;</li>
+			    <li class="l-4" style="width: 80px;">&nbsp;</li>
+			    <li class="l-5"style="width: 110px;">&nbsp;</li>
+			    <li class="l-6"style="width: 100px;">&nbsp;<span>&nbsp;</span></li>
+			</ul>
+		</div>
+		</div>
+		<div id="tail">
+			<ul>
+				<li>阿里巴巴集团</li>
+				<li>淘宝网</li>
+				<li>天猫</li>
+				<li>聚划算</li>
+				<li>全球速卖通</li>
+				<li>阿里巴巴国际交易市场</li>
+				<li>1688</li>
+				<li>阿里妈妈</li>
+				<li>飞猪</li>
+				<li>阿里云计算</li>
+				<li>AliOS</li>
+				<li>阿里通信</li>
+				<li>一淘</li>
+				<li>万网</li>
+				<li>高德</li>
+				<li>UC</li>
+				<li>友盟</li>
+			</ul>
+			<ul>
+				<li>虾米</li>
+				<li>大麦网</li>
+				<li>钉钉</li>
+				<li>支付宝|</li>
+				<li>优酷</li>
+				<li>阿里体育</li>
+				<li>土豆</li>
+				<li>阿里健康</li>
+				<li>阿里影业</li>
+				<li>网商银行</li>
+			</ul>
+		</div>
+		<footer><p>关于淘宝合作伙伴营销中心廉正举报联系客服开放平台诚征英才联系我们网站地图法律声明及隐私权政策知识产权 | © 2003-现在 Taobao.com 版权所有</p>
+			
+<p>网络文化经营许可证：浙网文[2016]0268-027号|增值电信业务经营许可证：浙B2-20080224|信息网络传播视听许可证：1109364号|互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</p>
+<p>浙公网安备 33010002000078号 |（浙）网械平台备字[2018]第00004号|出版物网络交易平台服务经营备案证：新出发浙备字第002号|互联网药品信息服务资格证书编号：（浙）-经营性-2018-0010</p>
+                
+		</footer>
+	</body>
+</html>

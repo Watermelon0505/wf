@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+#head {
+	float: left;
+	margin: 8px;
+	margin-left: 300px;
+}
+
+#head-1 {
+	border: solid;
+	border-color: #ffb4a8;
+	height: 30px;
+	width: 900px;
+	font-size: 12px;
+	text-align: center;
+	background-color: #fef2f2;
+	float: left;
+	margin-top: 25px;
+	margin-left: 120px;
+}
+
+#head-1 li {
+	margin-top: 5px;
+}
+
+#tupian-1 {
+	clear: left;
+	position: relative;
+}
+
+#tupian-2 {
+	position: absolute;
+	left: 1136px;
+	top: 91px;
+}
+
+#denglu {
+	width: 355px;
+	height: 351px;
+	background-color: white;
+	position: absolute;
+	left: 1138px;
+	top: 211px;
+}
+
+#denglu table {
+	margin: 28px;
+}
+
+#denglu td {
+	padding-top: 20px;
+}
+
+#denglu span {
+	margin-left: 80px;
+	margin-top: 40px;
+	font-size: 10px;
+}
+
+#tupian-3 {
+	position: absolute;
+	left: 1493px;
+	top: 211px;
+}
+
+#tupian-4 {
+	position: absolute;
+	left: 1138px;
+	top: 561px;
+}
+
+#denglu-1 {
+	clear: left;
+	margin-left: 400px;
+	height: 50px;
+	width: 1050px;
+	border-bottom: solid;
+	border-top: solid;
+	border-color: silver;
+	margin-top: 70px;
+}
+
+#denglu-1 li {
+	float: left;
+	padding-left: 15px;
+	font-size: 5px;
+	margin-top: 15px;
+}
+
+#denglu-1 ul {
+	margin-left: -15px;
+}
+
+footer {
+	margin-left: 400px;
+	width: 730px;
+	font-size: 10px;
+}
+
+footer p {
+	margin-top: 10px;
+}
